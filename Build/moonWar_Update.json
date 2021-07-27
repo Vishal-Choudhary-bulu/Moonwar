@@ -1,0 +1,16 @@
+{
+"companyName": "Lazydev Games",
+"productName": "MoonWar",
+"productVersion": "0.1",
+"dataUrl": "moonWar_Update.data.unityweb",
+"wasmCodeUrl": "moonWar_Update.wasm.code.unityweb",
+"wasmFrameworkUrl": "moonWar_Update.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#142024",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.28f1"
+}
