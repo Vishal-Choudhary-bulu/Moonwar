@@ -92,15 +92,15 @@
   <body>
     <div id="gameContainer"></div>
     <div id="loader">
-      <img class="logo" src="logo.png">
+      <img class="logo" src="./public/logo.png">
       <div class="spinner"></div>
       <div class="progress"><div class="full"></div></div>
     </div>
   </body>
 
-  <script src="Build/UnityLoader.js"></script>
+  <script src="./Build/UnityLoader.js"></script>
   <script>
-  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/moonWar_Update.json", {onProgress: UnityProgress});
+  var gameInstance = UnityLoader.instantiate("gameContainer", "./Build/moonWar_Update.json", {onProgress: UnityProgress});
   function UnityProgress(gameInstance, progress) {
     if (!gameInstance.Module) {
       return;
